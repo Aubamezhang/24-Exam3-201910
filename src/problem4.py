@@ -83,7 +83,6 @@ And this one for n=14:
     # IMPORTANT: In your final solution for this problem,
     #   you must NOT use string multiplication.
     ####################################################################
-    new_list =[]
     for k in range(n):
         print(' ' * (n-k+1), end='')
         for j in range(k+1):
@@ -95,7 +94,6 @@ And this one for n=14:
             if n-q >= 10:
                 q = q + 10
             print(n-q, end='')
-
         print()
 
 
