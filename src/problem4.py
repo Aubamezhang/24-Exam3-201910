@@ -92,7 +92,7 @@ And this one for n=14:
         print(' ', '*'*(k+2), ' ', end='')
         for q in range(n-k):
             if n-q >= 10:
-                q = q + 10
+                q = 10 + q
             print(n-q, end='')
         print()
 
